@@ -1,0 +1,152 @@
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#laptop_picture{
+    width: 20%;
+    object-fit: contain;
+    aspect-ratio:2/1;
+}
+
+.middleside_div{
+    margin-right : 290px;
+    padding: 10px;
+}
+
+.midbuttons{
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: black; 
+}
+
+.input-icons i {
+    position: absolute;
+    padding: 10px;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.rightside_div{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.shopping_buttons{
+    align-self: center;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.card{
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 75%;
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+
+.list .item{
+    text-align: center;
+    background-color: #DCE0E1;
+    padding: 10px;
+    box-shadow: 0 50px 50px #757676;
+    letter-spacing: 1px;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.list .item img{
+    width: 40%;
+    height: 170px;
+}
+.list .item .title{
+    font-weight: 600;
+}
+.list .item .price{
+    margin: 10px;
+}
+.list .item button{
+    background-color: #1C1F25;
+    color: #fff;
+    width: 50%;
+    padding: 10px;
+}
+
+.checkout{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+}
+
+.close{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.total{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.maincard{
+    width: 100%;
+    height: 500px;
+
+}
+
+
+
+.card-list li{
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr);
+    row-gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.card-list li img{
+    width: 40%;
+}
+
+.card-list li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
